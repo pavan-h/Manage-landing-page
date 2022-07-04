@@ -47,7 +47,6 @@ a {
 }
 .navbar {
     display: flex;
-    
     align-items: center;
     padding: 1rem 1.5rem;
 }
@@ -71,10 +70,9 @@ a {
     align-items: center;
 }
 .nav-item{
-    padding: 5px 5px;
+    padding: 20px 20px;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
+    left: 200px;
     text-align: center;
 }
 .nav-link  {
@@ -96,7 +94,7 @@ a {
 }
 .nav-btn {
     position: relative;
-    left: 280px;
+    left: 300px;
 }
 
 /* *** header ends ***  */
@@ -428,8 +426,13 @@ a {
     }
 
     .nav-item{
-        margin: .8rem 0;
-        }
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 15px;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
     
         .hamburger{
             display: block;
