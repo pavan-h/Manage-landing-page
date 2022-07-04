@@ -16,11 +16,7 @@
 body {
     background: var(--Vary-Light-Gray);
     font-family: 'Be Vietnam Pro', sans-serif;
-    background-image: url("/images/bg-simplify-section-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-position: top -380px right -250px; */
-}
+}    
 
 .btn {
     background-color: var(--Bright-Red);
@@ -51,7 +47,7 @@ a {
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     padding: 1rem 1.5rem;
 }
@@ -71,11 +67,15 @@ a {
 }
 .nav-menu {
     display: flex;
-    padding: 30px 30px;
+    padding: 20px 20px;
     align-items: center;
 }
 .nav-item{
-    margin-right: 7rem;
+    padding: 5px 5px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .nav-link  {
     font-size: .8rem;
@@ -83,7 +83,7 @@ a {
     color: #475569;
 }
 .nav-link:hover {
-    color: #482ff7;
+    color: var(--Dark-Grayish-Blue);
 }
 .nav-logo {
     margin-top: 10px;
@@ -93,6 +93,10 @@ a {
     padding: 10px 5px;
     margin-top: 10px;
     margin-right: 50px; 
+}
+.nav-btn {
+    position: relative;
+    left: 280px;
 }
 
 /* *** header ends ***  */
@@ -393,8 +397,10 @@ a {
     #header .nav-logo {
         display: block;
         position: relative;
-        top: 20px;
         left: -50px;
+    }
+    .nav-btn {
+        display: none;
     }
     .nav-menu {
         position: fixed;
@@ -428,8 +434,8 @@ a {
         .hamburger{
             display: block;
             position: absolute;
-            right: 20px;
-            top: 30px;
+            right: 30px;
+            top: 20px;
             cursor: pointer;
         }   
         .hamburger.active .bar:nth-child(2) {
