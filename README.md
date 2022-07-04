@@ -36,7 +36,7 @@ Users should be able to:
 ![](./desgin/testimonials-slider.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/pavan-h/Manage-landing-page.git)
 - Live Site URL: [Add live site URL here](https://pavan-h.github.io/Manage-landing-page/)
 
 ## My process
